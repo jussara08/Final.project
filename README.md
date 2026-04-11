@@ -41,13 +41,23 @@ Architecture
 
 Features
 ModuleDescriptionStatusGrid topology loaderParses CGMES / CIM profiles for EU grid✅ Stable
+
 AC power flow solverFull Newton-Raphson, supports 5 000+ buses✅ Stable
+
 DC approximation solverFast linearised flows for near-real-time use✅ Stable
+
 State estimationWeighted least-squares from pseudo-measurements🔄 In progress
+
 N-1 contingency engineSequential line/transformer outage screening✅ Stable
+
 Renewable dispatch modelWind / solar probabilistic generation profiles✅ Stable
+
 Load forecasting (ML)LSTM + XGBoost ensemble per bidding zone🔄 In progress
+
 Anomaly detectionFrequency / voltage deviation alerts🔄 In progress
+
 REST APIOpenAPI 3.0 compliant grid state endpoints✅ Stable
+
 WebSocket streamingLive telemetry push to dashboard clients✅ Stable
+
 React dashboardInteractive map with grid overlays🔄 In progress
