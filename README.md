@@ -1,4 +1,4 @@
-European Power Grid — Digital Twin
+⭐️European Power Grid — Digital Twin
 
 A high-fidelity digital twin of the European interconnected transmission network, enabling real-time simulation, fault prediction, and grid stability analysis across the ENTSO-E synchronous area.
 
@@ -20,17 +20,20 @@ Architecture
 │   ENTSO-E Transparency API  ·  SCADA feeds  ·  Weather APIs     │
 └──────────────────────────┬──────────────────────────────────────┘
                            │
+                           
 ┌──────────────────────────▼──────────────────────────────────────┐
 │                       Grid State Engine                         │
 │    Power Flow Solver (Newton-Raphson)  ·  State Estimator       │
 │    Topology Processor  ·  Contingency Engine  ·  EMS Bridge     │
 └──────────────────────────┬──────────────────────────────────────┘
                            │
+                           
 ┌──────────────────────────▼──────────────────────────────────────┐
 │                     Analytics & ML Layer                        │
 │    Load Forecast  ·  Anomaly Detection  ·  Stability Indices    │
 └──────────────────────────┬──────────────────────────────────────┘
                            │
+                           
 ┌──────────────────────────▼──────────────────────────────────────┐
 │                    API & Visualisation Layer                     │
 │         REST / WebSocket API  ·  React Dashboard  ·  GIS Map    │
